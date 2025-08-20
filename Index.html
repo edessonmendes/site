@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Meu Nome</h1>
+    <p>Desenvolvedor Web | Analista de Dados</p>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre mim</h2>
+      <p>Sou apaixonado por tecnologia, desenvolvimento de sistemas e análise de dados. 
+         Busco sempre criar soluções simples, objetivas e eficientes.</p>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <div class="projeto">📊 Dashboard interativo de transporte público</div>
+      <div class="projeto">🌐 Site institucional responsivo</div>
+      <div class="projeto">⚙️ API para integração de dados</div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <form id="form">
+        <input type="text" id="nome" placeholder="Seu nome" required>
+        <input type="email" id="email" placeholder="Seu e-mail" required>
+        <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="msg"></p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="ano"></span> Meu Nome
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
